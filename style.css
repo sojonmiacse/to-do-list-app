@@ -1,0 +1,136 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body {
+     font-family: Arial, sans-serif;
+     background-color: #f0f0f0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+}
+
+.container {
+     background-color: white;
+     padding: 20px;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     width: 400px;
+}
+
+.author-img{
+     text-align: center;
+}
+.author-img img{
+     width: 80px;
+     height: 80px;
+     border: 5px solid #f4f4f4;
+     border-radius: 100%;
+     margin: 10px 0;
+}
+
+h1 {
+     text-align: center;
+     color: #218838;
+     margin-bottom: 20px;
+}
+
+.input-group {
+     display: flex;
+     margin-bottom: 20px;
+}
+
+input[type="text"] {
+     flex: 1;
+     padding: 10px;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     font-size: 16px;
+}
+
+button {
+     padding: 10px;
+     border: none;
+     background-color: #28a745;
+     color: white;
+     font-size: 16px;
+     cursor: pointer;
+     border-radius: 4px;
+     margin-left: 10px;
+}
+
+button:hover {
+     background-color: #218838;
+}
+
+ul {
+     list-style-type: none;
+     padding: 0;
+}
+
+li {
+     background-color: #f9f9f9;
+     padding: 10px;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 10px;
+}
+
+li .task-text {
+     flex: 1;
+     padding: 5px;
+     border: none;
+     background: none;
+     font-size: 16px;
+     cursor: pointer;
+}
+
+li .task-text[contenteditable="true"] {
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     padding: 5px;
+}
+
+li .save-btn,
+li .edit-btn,
+li .delete-btn {
+     background-color: #007bff;
+     color: white;
+     border: none;
+     padding: 5px 10px;
+     cursor: pointer;
+     border-radius: 4px;
+     margin-left: 5px;
+}
+
+li .save-btn {
+     display: none;
+     background-color: #28a745;
+}
+
+li .delete-btn {
+     background-color: #dc3545;
+}
+
+li .edit-btn:hover,
+li .save-btn:hover {
+     background-color: #0056b3;
+}
+
+li .delete-btn:hover {
+     background-color: #c82333;
+}
+.contactMe{
+     text-align: center;
+}
+.contactMe a{
+     text-decoration: none;
+     color: #28a745;
+     margin-top: 20px;
+}
