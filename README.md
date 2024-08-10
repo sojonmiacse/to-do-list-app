@@ -33,4 +33,4 @@ To see the app in action, open `index.html` in your web browser.
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/todo-list-app.git
+   git clone https://github.com/yourusername/to-do-list-app.git
