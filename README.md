@@ -30,7 +30,7 @@ To see the app in action, open `index.html` in your web browser.
 - **CSS3**: For styling the app.
 - **JavaScript (ES6+)**: For adding interactivity and managing the app's functionality.
 
-## Installation
+## Installation 
 
 1. Clone the repository:
    git clone https://github.com/sojonmiacse/to-do-list-app.git
